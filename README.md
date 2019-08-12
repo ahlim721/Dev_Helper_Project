@@ -6,9 +6,9 @@
 >
 > 
 >
-> `Dev_Helper_Project` 는 사용자의 개발을 돕는 웹 페이지로서,
+> `Dev_Helper_Project` 는 사용자의 개발 정리를 돕는 웹 페이지로서,
 >
-> `Node.js`, `Vue`, `MongoDB` 를 기반으로 개발할 예정이다.
+> `Node.js`, `Vue`, `Firebase` 를 기반으로 개발할 예정이다.
 
 
 
@@ -112,7 +112,43 @@ vue init webpack [my-project]
 
 
 
+----
 
+
+
+### 기능 설계
+
+* Post
+
+  > 작성자가 원하는 포스팅을 할 수 있는 페이지
+
+* Repository
+
+  > 작성자의 GitHub를 토대로 정리하는 페이지
+
+* Guest Book
+
+  > 작성자의 페이지에 방문한 게스트들이 방명록을 작성한다.
+
+* Login
+
+  > Firebase로 부터 로그인을 할 수 있도록 한다.
+
+
+
+-----
+
+
+
+### 프로젝트 구조 설계
+
+* Assets
+
+  > 프로젝트에 필요한 assets를 담은 폴더
+
+* components
+
+* views
 
 
 

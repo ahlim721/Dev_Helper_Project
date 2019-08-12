@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import PostPage from '@/views/PostPage'
+import IndexPage from '@/views/IndexPage'
 
 Vue.use(Router)
 
@@ -8,8 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'IndexPage',
+      component: IndexPage
+    },
+    {
+      path: '/post',
+      name: 'PostPage',
+      component: PostPage
     }
   ]
 })
